@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-01</title>
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <style>
+        body{
+            overflow: hidden;
+        }
+        body>section{
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+        }
+        section:first-child{
+            background: red;
+            top: 0;
+            left: 0;
+            align-content: center;
+        }
+        section:first-child>div:first-child{
+            width: 15vw;
+            height: 15vw;
+            margin: auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+        section:first-child>div:first-child>div{
+            width: 7vw;
+            height: 7vw;
+            background-color: red;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            align-content: center;
+            position: absolute;
+        }
+
+
+        section:nth-child(2){
+            background: green;
+            top: 0;
+            right: 0;
+            align-content: center;
+        }
+        section:nth-child(2)>div:first-child{
+            width: 15vw;
+            height: 15vw;
+            background-color: white;
+            margin: auto;
+            border-radius: 50%;
+        }
+        section:nth-child(2)>div:first-child>div{
+            width: 7vw;
+            height: 7vw;
+            background-color: red;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            align-content: center;
+        }
+
+
+
+        section:nth-child(3){
+            background: gold;
+            bottom: 0;
+            left: 0;
+            align-content: center;
+        }
+        section:nth-child(3)>div:first-child{
+            width: 15vw;
+            height: 15vw;
+            background-color: white;
+            margin: auto;
+            border-radius: 50%
+        }
+        section:nth-child(3)>div:first-child>div{
+            width: 7vw;
+            height: 7vw;
+            background-color: red;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            margin: auto;
+        }
+
+
+        section:nth-child(4){
+            background: deeppink;
+            bottom: 0;
+            right: 0;
+            align-content: center;
+        }
+        section:nth-child(4)>div:first-child{
+            width: 15vw;
+            height: 15vw;
+            background-color: white;
+            border-radius: 50%;
+            margin: auto;
+        }
+        section:nth-child(4)>div:first-child>div{
+            width: 7vw;
+            height: 7vw;
+            background-color: red;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            position: absolute;
+            margin: auto;
+        }
+
+        /*.corner{*/
+        /*    width: 15vw;*/
+        /*    height: 15vw;*/
+        /*    background-color: white;*/
+        /*    position: absolute;*/
+        /*    border-radius: 100%;*/
+        /*}*/
+        section:nth-child(5)>div:nth-child(1){
+            width: 15vw;
+            height: 15vw;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            top: calc(-15vw/2);
+            left: calc(-15vw/2);
+        }
+        section:nth-child(5)>div:nth-child(2){
+            width: 15vw;
+            height: 15vw;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            bottom: calc(-15vw/2);
+            left: calc(-15vw/2);
+        }
+        /*section:nth-child(5)>div:nth-child(2){*/
+        /*    width: 15vw;*/
+        /*    height: 15vw;*/
+        /*    background-color: white;*/
+        /*    position: absolute;*/
+        /*    border-radius: 100%;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<section class="corner">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+</body>
+</html>
