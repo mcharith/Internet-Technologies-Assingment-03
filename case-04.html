@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case 4</title>
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        div:first-child {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            position: sticky;
+            width: 100%;
+            z-index: 1;
+        }
+
+        div:nth-child(2) {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 100px;
+            font-weight: bold;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span>Card 1</span>
+</div>
+<div>Hello</div>
+</body>
+</html>
